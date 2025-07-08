@@ -21,3 +21,13 @@ while True:
     i += 1
     if i % 100 == 0:
         break
+
+
+
+# using Enumerate function in loop we access both value and index in same loop---
+
+list =[1,2,445,6,4,99]
+for i, a in enumerate(list):
+    print(a)
+    if i ==4:
+        print("Watch it")

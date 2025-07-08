@@ -11,5 +11,5 @@ int main()
     {
         printf("Good");
     }
+    return 0;
 }
-return 0;

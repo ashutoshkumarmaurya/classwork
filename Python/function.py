@@ -5,7 +5,7 @@
 #     mean = (a*b)/(a+b)
 #     print(mean)
 
-# def helo (a,b):
+# def hello (a,b):
 #     pass
 
 # def isGreater(a,b):
@@ -22,7 +22,19 @@
 def average(a= 10,b = 6):
     print("The averge is", (a+b)/2)
 
-average()
+print(__name__)
+if __name__ == "__main__":
+    average()
 
+def average1(*num):
+    # print(type(num))
+    sum = 0
+    for i in num:
+        sum += i 
+    # print("Average of two number is ", sum / len(num))
+    return sum / len(num)
+
+a = average1(1,2,3,4)
+print(a)
 
 
